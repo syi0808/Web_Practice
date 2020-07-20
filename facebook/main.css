@@ -1,0 +1,360 @@
+body{
+    font-family: "Noto Sans KR";
+    margin: 0;
+    color: white;
+}
+
+#forgotPassword:link{
+    text-decoration: none;
+    color: #4E93D4;
+}
+
+#forgotPassword:hover{
+    text-decoration: underline;
+    color: #4E93D4;
+}
+
+#forgotPassword:visited{
+    text-decoration: none;
+    color: #4E93D4;
+}
+
+#header {
+    height: 90px;
+    background-color: #3b5998;
+}
+
+#title_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 490px;
+    height: 78px;
+    padding-top: 30px;
+}
+
+#title {
+
+    line-height: 34px;
+    width: 170px;
+    height: 34px;
+    color: white;
+    font-size: 40px;
+}
+
+#header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 78px;
+    width: 980px;
+}
+
+#login_wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 490px;
+    height: 78px;
+}
+
+.email_text{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.inputBox{
+    margin-right: 14px;
+    width: 180px;
+    height: 50px;
+}
+
+#forgotPassword{
+    font-size: 12px;
+    
+}
+
+input{
+    border: 1px solid black;
+}
+
+#Login{
+    background-color: #365899;
+    color: white;
+    border-radius: 3px; 
+    cursor: pointer;
+    padding-bottom: 2px;
+}
+
+#Picture{
+    display: inline-block;
+    min-width: 460px;
+    min-height: 568px;
+    padding-right: 48px;
+}
+
+#Make_ID{
+    display: inline-block;
+    min-width: 430px;
+    min-height: 568px;
+}
+
+.body-wrapper {
+    display: flex;
+    margin: auto;
+    color: black;
+    width: 980px;
+    min-height: 574px;
+}
+
+.Big{
+    font-size: 36px;
+    height: 60px;
+}
+
+.Small{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+#Middle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E9EBEE;
+    
+}
+
+.Input_Name{
+    width: 172px;
+    height: 21px;
+    padding: 10px 10px 8px 10px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border-color: #BDC7D8;
+    font-size: 18px;
+    color: #9999A6;
+    border-radius: 5px;
+}
+
+.Input_Infromation{
+    width: 377px;
+    height: 21;
+    padding: 10px 10px 8px 10px;
+    margin-bottom: 10px;
+    border-color: #BDC7D8;
+    font-size: 18px;
+    color: #9999A6;
+    border-radius: 5px; 
+}
+
+#Birthday{
+    width: 400px;
+    height: 21px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+#Year{
+    width: 63px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border-color: #BDC7D8;
+}
+
+#Month{
+    width: 62px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border-color: #BDC7D8;
+}
+
+#Day{
+    width: 49px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    border-color: #BDC7D8;
+}
+
+#Information{
+    width: 400px;
+    height: 56px;
+}
+
+#Seong{
+    width: 400px;
+    height: 21px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.Sex {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    padding: 5px 5px 5px 4px;
+}
+
+#Rule{
+    font-size: 11px;
+    width: 316px;
+    height: 42px;
+    margin-top: 11px;
+    margin-bottom: 23px;
+    color: #9999A6;
+}
+
+.rule:link{
+    text-decoration: none;
+    color: #385898;
+}
+
+.rule:hover{
+    text-decoration: underline;
+    color: #385898;
+}
+
+.rule:visited{
+    text-decoration: none;
+    color: #385898;
+}
+
+#Page:link{
+    text-decoration: none;
+    color: #385898;
+}
+
+#Page:hover{
+    text-decoration: underline;
+    color: #385898;
+}
+
+#Page:visited{
+    text-decoration: none;
+    color: #385898;
+}
+
+#Birth{
+    display: flex;
+    width: 174px;
+    height: 30px;
+}
+.button{
+    width: 152px;
+    height: 23px;
+    background: linear-gradient(#67ae55, #578843);
+    padding: 4px 20px 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#Other_Name {
+    height: 30px;
+    width: 394px;
+    padding: 2px 2px 2px 2px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    border-color: #BDC7D8;
+}
+#Sung_Bottom {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 2px;
+}
+
+#Choose {
+    width: 377px;
+    height: 21px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 4px;
+    border-color: #BDC7D8;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#Check_Other {
+    display: none;
+}
+
+#Out:checked ~ #Check_Other {display: inline;}
+
+#Middle_Bottom {
+    display: inline-block;
+    width: 400px;
+    height: 33px;
+}
+
+#Middle_Bottom {
+    font-size: 14px;
+    color: #9999A6;
+    padding-top: 15px;
+    margin-top: 10px;
+    border-top: 1px solid #DDDFE2;
+}
+
+.BOX {
+    display: inline-block;
+    width: 160px;
+    height: 206px;
+    border: 1px solid #DDDFE2;
+}
+
+#Plus{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    background-color: #F5F6F7;
+    margin: 0;
+}
+
+#ID_Plus {
+    width: 160px;
+    height: 46px;
+    background-color: white;
+    text-align: center;
+    line-height: 46px;
+    color: #4267B2;
+    margin: 0;
+}
+
+#Icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #4267B2;
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    font-size: 34px;
+    display: table;
+    margin: 0 auto;
+}
+
+.BOX:link{
+    text-decoration: none;
+    color: white;
+}
+
+.BOX:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 3px 20px 4px #c6cad1;
+}
+
+.BOX:visited{
+    text-decoration: none;
+    color: white;
+}
